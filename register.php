@@ -42,27 +42,27 @@ include "connection.php";
                             <div class="row">
                                 <div class="form-group col-lg-12">
                                     <label>FirstName</label>
-                                    <input type="text" name="firstname" class="form-control">
+                                    <input type="text" name="firstname" class="form-control" required>
                                 </div>
                                 <div class="form-group col-lg-12">
                                     <label>LastName</label>
-                                    <input type="text" name="lastname" class="form-control">
+                                    <input type="text" name="lastname" class="form-control" required>
                                 </div>
                                 <div class="form-group col-lg-12">
                                     <label>Username</label>
-                                    <input type="text" name="username" class="form-control">
+                                    <input type="text" name="username " class="form-control" required>
                                 </div>
                                 <div class="form-group col-lg-12">
                                     <label>Password</label>
-                                    <input type="text" name="password" class="form-control">
+                                    <input type="text" name="password" class="form-control" required>
                                 </div>
                                 <div class="form-group col-lg-12">
                                     <label>Email</label>
-                                    <input type="text" name="email" class="form-control">
+                                    <input type="text" name="email" class="form-control" required>
                                 </div>
                                 <div class="form-group col-lg-12">
                                     <label>Contact</label>
-                                    <input type="text" name="contact" class="form-control">
+                                    <input type="text " name="contact" class="form-control " > 
                                 </div>
                             </div>
                             <div class="text-center">

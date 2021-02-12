@@ -1,4 +1,4 @@
-<?php 
+<?php
     include "../connection.php";
 ?>
 
@@ -49,19 +49,19 @@
                     <form name="form1" action="" method="POST">
                         <div class="form-group">
                             <label>What is your username?</label>
-                            <input type="text" name="username" class="form-control" placeholder="Your username" required> 
+                            <input type="text" name="username" class="form-control" placeholder="Your username" required>
                         </div>
                             <div class="form-group">
                                 <label>Enter your password</label>
                                 <input type="password" name="password" class="form-control" placeholder="Password" required>
                         </div>
-                                
+
                                 <button type="submit" name="submit1" class="btn btn-success btn-flat m-b-30 m-t-30">Sign in</button>
                                 <div class="alert alert-danger" id="errormessage" style="margain-top: 10px; display: none">
                                 <strong>This username is invalid</strong> It might not exist.
                                 </div>
 
-                                <div class="social-login-content">                                    
+                                <div class="social-login-content">
                                 </div>
                                 <div class="register-link m-t-15 text-center">
                                     <p>Don't have account ? <a href="../register.php"> Sign Up Here</a></p>
@@ -100,14 +100,14 @@ if(isset($_POST["submit1"]))
             <script type="text/javascript">
                 document.GetElementById("errormessage").style.display="block";
             </script>
-            
+
         <?php
     }
     else {
-        ?>
-         header('Location: ' . 'demo.php');
-        exit(); 
 
+            header('Location: ' . 'demo.php');
+            exit();
+            ?>
         <?php
     }
 }

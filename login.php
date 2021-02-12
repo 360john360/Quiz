@@ -1,3 +1,5 @@
+
+  
 <?php
 include "connection.php";
 ?>
@@ -52,8 +54,11 @@ include "connection.php";
                             </div>
 
                             <button type="submit" name="login" class="btn btn-success btn-block loginbtn">Login</button>
-                            <a class="btn btn-default btn-block" href="register.php">Register</a>
+                            <a class="btn btn-default btn-block" href="register.php">Register</a>          
 
+                          
+                            
+                                   
                             <div class="alert alert-danger" id="failed" style="margain-top: 10px; display: none">
                                 <strong>The username or password you entered did not match</strong> The username does not exist or is already taken.
                             </div>
@@ -113,3 +118,4 @@ if(isset($_POST["login"]))
 </body>
 
 </html>
+
